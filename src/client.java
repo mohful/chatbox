@@ -25,6 +25,7 @@ public class client {
             clientSocket.receive(receivePacket);
             String serverData = new String(receivePacket.getData());
             System.out.print("\nServer: " + serverData);
+            System.out.println("My man raf");
         }
         clientSocket.close();
         in.close();
